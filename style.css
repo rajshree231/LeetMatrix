@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background: #2A7B9B;
+    height:100vh;
+    border: 2px solid black;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: rgb(200, 75, 198);
+padding: 20px;
+border-radius: 5px;
+width: 50%;
+max-width: 600px;
+}
+h1{
+    font-size: 3rem;
+}
+.user-container{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+    
+}
+.user-input-container{
+    display: flex;
+    justify-content: space-between;
+}
+#user-input{
+    width: 80%;
+    padding: 0.4rem;
+
+}
+#search-btn{
+    padding: 0.3rem;
+    border-radius: 5px;
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    border: 3px solid rgb(8, 152, 66);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1 rem;
+    color: white;
+    font-weight: 700;
+    /* background: #46b637; */
+    background: conic-gradient(#47a06e var(--progress-degree, 0%), #033815 0%);
+
+    flex-direction: column;
+}
+.progress{
+    display: flex;
+}
+.card{
+    background-color: rgb(230, 146, 44);
+    width: 40%;
+    max-width: 290px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    min-height: 4rem;
+}
+.stats-cards{
+   margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
